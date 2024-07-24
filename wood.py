@@ -1,19 +1,20 @@
-def reset():
-	while True:
-		if get_pos_x() == 0 and get_pos_y() == 0:
-			break
-		sweep_field()
-			
 def harvest_tree():
 	if can_harvest():
 		harvest()
-		plant(Entities.Tree)
-	if get_entity_type() == None:
-		plant(Entities.Tree)
+		while True:
+			if get_entity_type() == None:
+				plant(Entities.Tree)
+				break
+			else:
+				till()
 
-def harvest_bush():
-	if can_harvest():
-		harvest()
+def plant_bush():
+	while True:
+		if get_entity_type() == None:
+			plant(Entities.Bush)
+			break
+		else:
+			till()
 	if get_entity_type() == None:
 		plant(Entities.Bush)
 
@@ -21,7 +22,7 @@ def move_drone(move_1, move_2):
 	move(move_1)
 	move(move_2)
 	
-def trees():
+def plant_trees():
 	while True:
 		if get_pos_x() == 9 and get_pos_y() == 9:
 			harvest_tree()
@@ -64,9 +65,11 @@ def trees():
 			reset()
 			
 def harvest_all():
-	while True:
-		if get_entity_type() != Entities.Tree or get_entity_type() == Entities.Bush or get_entity_type() == None:
-			harvest_bush()
+	while True:	
+		if get_entity_type() != Entities.Tree:
+			if can_harvest():
+				harvest()
+			plant_bush()
 		elif get_entity_type() == Entities.Tree:
 			harvest_tree()
 		sweep_field()
@@ -75,7 +78,7 @@ def wood():
 	while True:
 		if get_pos_x() == 0 and get_pos_y() == 0 or ((get_pos_x() == 9 and get_pos_y() == 9) and can_harvest() == True):
 			reset()
-            trees()
+            plant_trees()
 		elif (get_pos_x() == 9 and get_pos_y() == 9) and can_harvest() == False:
 			harvest_all()
         else:
