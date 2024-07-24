@@ -1,13 +1,10 @@
-# The Farmer Was Replaced - Automated Farming Scripts
-
-## Project Description
+# ▁ ▂ ▄ ▅ ▆ ▇ █ The Farmer Was Replaced █ ▇ ▆ ▅ ▄ ▂ ▁
 
 Welcome to the repository for my in-game scripts from **"The Farmer Was Replaced."** This game, which combines elements of casual, indie, simulation, and strategy, provides a unique platform where players can program and optimize a drone to automate various farming tasks.
 
 ## Game Overview
 
-**Title:** The Farmer Was Replaced  
-**Genre:** Casual, Indie, Simulation, Strategy, Early Access
+**Game Title:** [The Farmer Was Replaced](https://store.steampowered.com/app/2060160/The_Farmer_Was_Replaced/)
 
 In **"The Farmer Was Replaced,"** you will:
 
