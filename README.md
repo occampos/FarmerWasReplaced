@@ -2,7 +2,7 @@
 
 Welcome to the repository for my in-game scripts from **"The Farmer Was Replaced."** This game, which combines elements of casual, indie, simulation, and strategy, provides a unique platform where players can program and optimize a drone to automate various farming tasks.
 
-## Game Overview
+## ┯━━━━━━━━━ ●●● Game Overview ●●● ━━━━━━━━━┯
 
 **Game Title:** [The Farmer Was Replaced](https://store.steampowered.com/app/2060160/The_Farmer_Was_Replaced/)
 
@@ -12,7 +12,7 @@ In **"The Farmer Was Replaced,"** you will:
 - **Collect and Unlock:** Gather resources to unlock advanced technologies and strive to become the most efficient farmer.
 - **Continuous Progression:** Experience a continuous progression system, enhancing problem-solving and coding skills for both beginners and experienced programmers.
 
-## Repository Contents
+## ┯━━━━━━━━━ ●●● Repository Contents ●●● ━━━━━━━━━┯
 
 This repository features scripts I’ve developed during gameplay. These scripts are designed for automating farming tasks in-game. The contents include:
 
